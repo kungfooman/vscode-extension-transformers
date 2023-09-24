@@ -26,6 +26,7 @@
     ]
   },
   "scripts": {
+    "watch": "echo Begone, watch build step! Embracing true ESM power!",
     "vscode:prepublish": "echo Begone, prepublish build step! Embracing true ESM power!",
     "lint": "eslint \"src/**/*.js\""
   },
