@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "publisher": "kungfooman",
   "repository": "https://github.com/kungfooman/vscode-extension-transformers/",
+  "scripts": {
+    "watch": "echo Begone, watch build step! Embracing true ESM power!",
+    "vscode:prepublish": "echo Begone, prepublish build step! Embracing true ESM power!",
+    "lint": "eslint \"src/**/*.js\""
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -24,11 +29,6 @@
         "title": "Hello Tensor"
       }
     ]
-  },
-  "scripts": {
-    "watch": "echo Begone, watch build step! Embracing true ESM power!",
-    "vscode:prepublish": "echo Begone, prepublish build step! Embracing true ESM power!",
-    "lint": "eslint \"src/**/*.js\""
   },
   "devDependencies": {
     "@types/node": "^16.18.34",
