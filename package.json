@@ -19,7 +19,7 @@
         "command": "extension.helloWorld",
         "title": "Hello World"
       },
-	  {
+      {
         "command": "extension.helloTensor",
         "title": "Hello Tensor"
       }
